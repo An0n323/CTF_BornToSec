@@ -4,6 +4,7 @@ Faille search_member_sql_inj_error_based
 
 Action : Insertion d'un caractère spécial (guillemet simple ') dans le champ de recherche "Member ID". 
 Observation : Le serveur a renvoyé une erreur de syntaxe MariaDB, confirmant que l'entrée utilisateur est directement interprétée par la base de données sans nettoyage préalable.
+(./img/Capture d'écran 2025-12-19 125720.png)
 
 
 2. Exploitation et Contournement
