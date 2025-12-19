@@ -1,1 +1,9 @@
 # CTF_BornToSec
+
+Faille search_member_sql_inj_error_based
+
+1. Identification de la faille
+
+Action : Insertion d'un caractère spécial (guillemet simple ') dans le champ de recherche "Member ID".
+Observation : Le serveur a renvoyé une erreur de syntaxe MariaDB, confirmant que l'entrée utilisateur est directement interprétée par la base de données sans nettoyage préalable.
+
